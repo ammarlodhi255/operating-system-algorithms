@@ -1,0 +1,7 @@
+1. Put simple_c.c and Makefile into a same folder
+2. Navigate to the folder from the terminal
+3. Write 'make' to create 'ko' and other module files
+4. Write 'sudo insmod simple_c.ko' to add the module
+5. Write 'lsmod' to list all the modules (check whether the module was succesfully added or not).
+6. Write 'sudo rmmod simple_c.ko' to remove the simple_c module
+7. Write 'dmesg' to view linux logs, (Observe in the end, messages related to kernel module adding/removing will be present)
